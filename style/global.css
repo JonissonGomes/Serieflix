@@ -1,0 +1,50 @@
+:root {
+    --blackBlue: #010a13;
+    --red: red;
+}
+
+* {
+    background-color: #010a13;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    color: red;
+}
+
+a {
+    background: none;
+    text-decoration: none;
+    color: white;
+    font-size: 14pt;
+    transition: 200ms;
+}
+
+a:hover {
+    transition: 200ms;
+    color: var(--red);
+}
+
+button {
+    background:none;
+    padding: 10px 12px 10px 12px;
+    background-color: var(--red);
+    border-radius: 3px;
+    border: 1px solid var(--blackBlue);
+    color: white;
+    font-weight: 700;
+    font-size: 16pt;
+    transition: 200ms;
+}
+button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: red;
+    border: 1px solid var(--red);
+    padding: 10px 12px 10px 12px;
+    transition: 200ms;
+}
